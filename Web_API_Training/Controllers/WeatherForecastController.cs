@@ -15,7 +15,6 @@ namespace Web_API_Training.Controllers
         int y;
         int z;
      
-
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
