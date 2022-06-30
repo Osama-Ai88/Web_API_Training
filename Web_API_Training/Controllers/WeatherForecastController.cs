@@ -11,6 +11,11 @@ namespace Web_API_Training.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        int x;
+        int y;
+        int z;
+     
+
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
