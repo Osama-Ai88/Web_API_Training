@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -6,8 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Web_API_Training.Core\Web_API_Training.Core.csproj" />
-    <ProjectReference Include="..\Web_API_Training.Infra\Web_API_Training.Infra.csproj" />
   </ItemGroup>
-
 
 </Project>
